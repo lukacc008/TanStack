@@ -23,6 +23,7 @@ export default function NewEventsSection() {
     );
   }
 
+  
   if (data) {
     content = (
       <ul className="events-list">
