@@ -16,7 +16,7 @@ export default function NewEvent() {
   function handleSubmit(formData) {
     mutate({ event: formData });
   }
-
+ 
   return (
     <Modal onClose={() => navigate("../")}>
       <EventForm onSubmit={handleSubmit}>
